@@ -61,57 +61,6 @@ driver.get("https://www.google.com/");
         element8.click();
 
 
-
-
-// regex для поиска по атрибуту
-//        String regex = "//*[@id=\"firstname\"]";
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-//        WebDriverWait wait = (WebDriverWait) new WebDriverWait(driver, Duration.ofSeconds(30)) // ожидание появления элемента
-//                .until(ExpectedConditions
-//                    .frameToBeAvailableAndSwitchToIt(By.xpath("//input[@frameborder]"))); // ждем пока загрузится фрейм
-//        WebElement login = driver.findElement(By.xpath("//input =[id= 'passp-field-login']"));
-//        WebElement password = driver.findElement(By.xpath("\"//input[@placeholder = 'Пароль']\""));// пароль
-//        wait.until(ExpectedConditions.visibilityOfElementLocated(By.xpath("descendant::*[@class='credentials']/descendant::input[1]"))) // ожидание появления поля ввода логина
-//                .sendKeys(("maksat.osmonv.00@mail.ru"));// вводим логин
-//
-
-//        driver.switchTo().defaultContent(); // возвращаемся в основной контейнер
-//        driver.findElement(By.cssSelector("#user_password")).sendKeys("manas13@S"); // вводим пароль
-//        driver.findElement(By.id("sign-in-submit-button")).click(); // кликаем на кнопку входа
-//        driver.findElement(By.xpath("//div[@class='mail-User-Name']")).click();
-//        driver.findElement(By.xpath("//div[@class='mail-User-Name']")).sendKeys(Keys.ENTER);
-//        List<WebElement> folders = driver.findElements(By.cssSelector(".blocks-item a")); // получаем список папок
-//        System.out.println(folders.size()); // выводим количество папок
-//        driver.findElement(By.cssSelector(".blocks-item:nth-child(1) a")).getAttribute("href"); // получаем ссылку на первую папку
-//
-//        for (int i = 0; i < folders.size(); i++) { // перебираем папки
-//            folders.get(i).click(); // кликаем по папкам
-//            List<WebElement> messages = driver.findElements(By.cssSelector(".message-item")); // получаем список сообщений
-//            System.out.println(messages.size()); // выводим количество сообщений
-//            for (int j = 0; j < messages.size(); j++) {
-//                messages.get(j).click(); // кликаем по сообщениям
-//                driver.findElement(By.cssSelector(".message-item__title")).click(); // кликаем по заголовку сообщения
-//
-//            }
-//        }
     }
 
 
@@ -121,5 +70,6 @@ driver.get("https://www.google.com/");
 
     public void setDefaultCapabilities(DesiredCapabilities defaultCapabilities) {
     }
+
 }
 
